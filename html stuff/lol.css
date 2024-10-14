@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background-image: url("coffee.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 3rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #c59d5f;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#about {
+    background-color: #fff;
+    color: #333;
+}
+
+#menu {
+    background-color: #f9f9f9;
+}
+
+#menu h2, #about h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 22%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #c59d5f;
+}
+
+#home-music {
+    background-image: url("jazzmusic.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+#home-music h2 {
+    font-size: 3rem;
+}
+
+#home-music p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#music {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+#music h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.music-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.music-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 48%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.music-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.music-item p {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.music-item p:last-child {
+    margin-bottom: 0;
+}
+
+#home-apply {
+    background-image: url("barista.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+#home-apply h2 {
+    font-size: 3rem;
+}
+
+#home-apply p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#job-openings {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+#job-openings h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.job-item {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.job-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#apply-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#apply-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#apply-form input,
+#apply-form select,
+#apply-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#apply-form button {
+    background-color: #c59d5f;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#apply-form button:hover {
+    background-color: #a57a4a;
+}
+
+#contact {
+    background-color: #fff;
+    color: #333;
+}
+
+.contact-info {
+    list-style: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}

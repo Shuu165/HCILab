@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam - Jobs</title>
+    <link rel="stylesheet" href="lol.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JavaJam Coffee House</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home-apply">
+        <div class="home-text">
+            <h2>Come and Join us!</h2>
+            <p>We always welcome new people with warm shot of coffee.</p>
+        </div>
+    </section>
+
+    <section id="job-openings">
+        <div class="container">
+            <h2>Jobs</h2>
+            <div class="job-list">
+                <div class="job-item">
+                    <h3>Barista</h3>
+                    <p><b>Job Description:</b> Prepare and Serve menu items from Food to Beverages while giving great customer service</p>
+                    <p><b>Requirements:</b> Passionate, Hardworking, and good communication skills.</p>
+                </div>
+                <div class="job-item">
+                    <h3>Waiter/Waitress</h3>
+                    <p><b>Job Description:</b> Taking in orders, Serve Food and Beverages, and give a great experience to customers</p>
+                    <p><b>Requirements:</b> Good and friendly attitude, and the ability to multitask</p>
+                </div>
+                <div class="job-item">
+                    <h3>Cashier</h3>
+                    <p><b>Job Description:</b> Handling Transactions, Manage the Register, and Assisting customers problems </p>
+                    <p><b>Requirements:</b> Basic math skills with good attention to detail.</p>
+                </div>
+                <div class="job-item">
+                    <h3>Supplier</h3>
+                    <p><b>Job Description:</b> Handling Supply Income, Delivery of Ingredients and other Supplies</p>
+                    <p><b>Requirements:</b> Dedicated Hardwork, and Good communication and attitude</p>
+                </div>
+            </div>
+
+            <h2>Application Form</h2>
+            <form id="apply-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="position">Position Applying For:</label>
+                <select id="position" name="position" required>
+                    <option value="barista">Barista</option>
+                    <option value="server">Waiter/Waitress</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="Supplier">Supplier</option>
+                </select>
+
+                <label for="resume">Upload Resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell us more about yourself.." required></textarea>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <ul class="contact-info">
+                <li>Email: info@coffeebliss.com</li>
+                <li>Phone: (555) 123-4567</li>
+                <li>Address: 123 Coffee St., Coffee City</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 JavaJam Coffee House</p>
+    </footer>
+</body>
+</html>
